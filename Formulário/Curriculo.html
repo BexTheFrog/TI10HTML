@@ -1,0 +1,170 @@
+<!DOCTYPE html>
+
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <title>Curriculo</title>
+    </head>
+    <body>
+        
+        <h1>Bem vindo a página de cadastro</h1>
+
+        <p>Abaixo você encontrara o formulario onde poderá enviar suas informações para a inscrição.</p>
+
+        <hr>
+     
+        <form>
+            <h2> Informações Pessoais</h2>
+            
+            <label for="nome">
+                Nome: <input type="text" id="nome" name="nome">
+            </label>
+
+            <label for="email">
+                Email: <input type="email" id="email" nome="email">
+            </label>
+
+            <br>
+            <br>
+
+            <label for="Idade">
+                Idade: <input type="number" id="idade" nome="idade">
+            </label>
+
+            <label for="CPF">
+                CPF: <input type="text" id="CPF" nome="CPF">
+            </label>
+
+            <br>
+            <br>
+
+            <label for="email">
+                Email: <input type="email" id="email" nome="Email">
+            </label>
+
+            <label for="data">
+                Data de nascimento: <input type="date" id="data" nome="data">
+            </label>
+
+            <br>
+            <br>
+
+            <hr>
+            <h2>Endereço</h2>
+            <label for="Rua">
+                Rua: <input type="text" id="rua" nome="rua">
+            </label>
+            
+            <label for="Num">
+                Numero: <input type="number" id="num" nome="num"> 
+            </label>
+            
+            <label for="Bairro">
+                Bairro: <input type="text" id="bairro" nome="bairro">
+            </label>
+
+            <label for="cidade">
+                Cidade: <input type="text" id="cidade" nome="cidade">
+            </label>
+
+            <label for="Estado">
+                <select name="estado" id="estado">
+                    <option value=" ">--</option>
+                    <option value="1">AC</option>
+                    <option value="2">AL</option>
+                    <option value="3">AP</option>
+                    <option value="4">AM</option>
+                    <option value="5">BA</option>
+                    <option value="6">CE</option>
+                    <option value="7">DF</option>
+                    <option value="8">ES</option>
+                    <option value="9">GO</option>
+                    <option value="10">MA</option>
+                    <option value="11">MT</option>
+                    <option value="12">MS</option>
+                    <option value="13">MG</option>
+                    <option value="14">PA</option>
+                    <option value="15">PB</option>
+                    <option value="16">PR</option>
+                    <option value="17">PE</option>
+                    <option value="18">PI</option>
+                    <option value="19">RJ</option>
+                    <option value="20">RN</option>
+                    <option value="21">RS</option>
+                    <option value="22">RO</option>
+                    <option value="23">RR</option>
+                    <option value="24">SC</option>
+                    <option value="25">SP</option>
+                    <option value="26">SE</option>
+                    <option value="27">TO</option>
+                </select>
+            </label>
+            
+            <br>
+            <BR>
+            <HR>
+            
+            <h2>Sobre Você</h2>
+            <label for="cor">
+                Selecione sua cor favorita  <input type="color" id="cor" nome="cor">
+            </label>
+            
+            <br>
+            <br>
+            
+            <label for="hobbies">Fale sobre seus hobbies</label>
+            <br>
+            <textarea id="hobbies" name="hobbies" rows="5" cols="42"></textarea>
+
+            <br>
+            <br>
+            <hr>
+
+            <H2>Profissional</H2>
+            <p>Conte nos sobre sua experiencia profissional.</p>
+            <br>
+            <label for="InfoPro">Experiência de trabalho.</label>
+            <br>
+            <textarea id="InfoPro" name="InfoPro" rows="5" cols="42"></textarea>
+            
+            <br>
+            
+            <label>Nos conte sobre sua informação academica.</label>
+            <br>
+            <textarea id="InfoExp" name="InfoExp" rows="5" cols="42"></textarea>
+
+            <br>
+            <br>
+
+            <label>Quais linguagens de programação você está familiar:</label>
+            <br>
+            <Br>
+
+            Java
+            <input type="Checkbox" name="java" id="interesses" value="java">
+            
+            JavaScript 
+            <input type="Checkbox" id="interesses" name="JavaScript" value="JavaScript">
+            
+            Python
+            <input type="checkbox" id="interesses" name="Python" value="Python">
+
+            Outros
+            <input type="checkbox" id="interesses" name="Outros" value="Outros">
+            
+            <br>
+            <br>
+            <label for="outros">Quais outras?</label>
+            <br>
+            <textarea id="InfoExp" name="InfoExp" rows="5" cols="42"></textarea>
+            
+            <hr>
+            <br>
+
+            <button type="submit">Enviar</button>
+            <button type="reset">Limpar</button>
+        </form>
+
+
+    </body>
+</html>
