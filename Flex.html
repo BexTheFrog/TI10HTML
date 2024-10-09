@@ -1,0 +1,54 @@
+<html lang="PT-BR">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Display Flex</title>
+
+        <style>
+            
+            .pai{
+                background-color: bisque;
+                display: flex;
+                /*flex-direction: column;*/ 
+                /*Alinha elementos filhos na horizontal */
+                justify-content: center;
+                /*Alinha elementos filhos na vertical */
+                align-items: center; 
+                height: 500px;
+                gap: 20px;
+                flex-wrap: wrap;
+                align-content: center;
+
+            } 
+
+            .filha{
+                /*margin: auto;*/
+                width: 200px;
+                height: 200px;
+                border: 1px solid black;
+                text-align: center;
+                background-color: antiquewhite;
+            }
+
+            .dois{
+                flex: 50%;
+
+            }
+
+        </style>
+    
+    </head>
+
+    <body>
+        <h1>Display</h1>
+        <h2>Flex</h2>
+        <div class="pai">
+            <div class="filha">Item 1</div>
+            <div class="filha">Item 2</div>
+            <div class="filha">Item 3</div>
+            <div class="filha">Item 4</div>
+            <div class="filha">Item 5</div>
+            <div class="filha">Item 6</div>
+        </div>
+    </body>
+</html>
